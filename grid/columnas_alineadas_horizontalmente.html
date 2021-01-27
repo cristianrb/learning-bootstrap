@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <style>
+        .row {
+            background: #e8e8e8;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .columna {
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+    </style>
+    <title>Columnas alineadas horizontalmente</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="columna col-4">Columna 1</div>
+            <div class="columna col-4">Columna 2</div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="columna col-4">Columna 1</div>
+            <div class="columna col-4">Columna 2</div>
+        </div>
+
+        <div class="row justify-content-end">
+            <div class="columna col-4">Columna 1</div>
+            <div class="columna col-4">Columna 2</div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="columna col-4">Columna 1</div>
+            <div class="columna col-4">Columna 2</div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="columna col-2">Columna 1</div>
+            <div class="columna col-2">Columna 2</div>
+            <div class="columna col-2">Columna 3</div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

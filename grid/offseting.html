@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <style>
+        .row {
+            background: #e8e8e8;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .columna {
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+    </style>
+    <title>Offseting</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="columna col-auto offset-1">Columna</div>
+        </div>
+
+        <div class="row">
+            <div class="columna col-4 offset-4">Columna</div>
+        </div>
+
+        <div class="row">
+            <div class="columna col-auto offset-1">Columna</div>
+            <div class="columna col-auto offset-1">Columna</div>
+        </div>
+
+        <div class="row">
+            <div class="columna col-4 offset-1 offset-md-4 offset-lg-0">Columna</div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
