@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Formularios</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" placeholder="Password" name="password" id="password">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="pais">Pais</label>
+                        <select name="pais" id="pais" class="form-select">
+                            <option value="espana">España</option>
+                            <option value="francia">Francia</option>
+                            <option value="alemania">Alemania</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <label for="form-check-label">
+                            <input type="radio" name="sexo" id="hombre" class="form-check-input">
+                                Hombre
+                        </label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <label for="form-check-label">
+                            <input type="radio" name="sexo" id="mujer" class="form-check-input">
+                                Mujer
+                        </label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <label for="form-check-label">
+                            <input type="radio" name="sexo" id="otro" class="form-check-input">
+                                Otro
+                        </label>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <label for="form-check-label">
+                            <input type="checkbox" name="terminos" id="otro" class="form-check-input">
+                            Aceptar
+                        </label>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
