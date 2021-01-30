@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Grupos de lista</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-4">
+                <div class="list-group" id="lista" role="tablist">
+                    <a href="#elemento1" class="list-group-item list-group-item-action active" data-bs-toggle="list" role="tab"
+                        aria-controls="elemento1">Elemento 1</a>
+                    <a href="#elemento2" class="list-group-item list-group-item-action" data-bs-toggle="list" role="tab"
+                        aria-controls="elemento2">Elemento 2</a>
+                    <a href="#elemento3" class="list-group-item list-group-item-action" data-bs-toggle="list" role="tab"
+                        aria-controls="elemento3">Elemento 3</a>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
+                        <h3>Titulo #1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cupiditate recusandae sint
+                            sit dolore obcaecati, debitis neque delectus ex autem consequuntur officia nulla
+                            voluptatibus dolorum natus itaque sequi. Dicta nostrum repudiandae, laboriosam consectetur
+                            tenetur explicabo ea, fuga rerum natus cumque ab ducimus odit unde sunt, nihil doloribus
+                            nemo vero eius.</p>
+                    </div>
+
+                    <div class="tab-pane fade show" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
+                        <h3>Titulo #2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cupiditate recusandae sint
+                            sit dolore obcaecati, debitis neque delectus ex autem consequuntur officia nulla
+                            voluptatibus dolorum natus itaque sequi. Dicta nostrum repudiandae, laboriosam consectetur
+                            tenetur explicabo ea, fuga rerum natus cumque ab ducimus odit unde sunt, nihil doloribus
+                            nemo vero eius.</p>
+                    </div>
+
+                    <div class="tab-pane fade show" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
+                        <h3>Titulo #3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cupiditate recusandae sint
+                            sit dolore obcaecati, debitis neque delectus ex autem consequuntur officia nulla
+                            voluptatibus dolorum natus itaque sequi. Dicta nostrum repudiandae, laboriosam consectetur
+                            tenetur explicabo ea, fuga rerum natus cumque ab ducimus odit unde sunt, nihil doloribus
+                            nemo vero eius.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
