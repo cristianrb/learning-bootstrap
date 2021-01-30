@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Modal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fm-modal">Abrir modal</button>
+                <div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">Titulo de la ventana</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar" />
+                            </div>
+
+                            <div class="modal-body">
+                                <h2>Hello world</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio porro modi tenetur
+                                    dolore explicabo deserunt nemo velit accusantium. Doloribus dolor necessitatibus
+                                    officia ea quaerat, minus hic? Voluptatem placeat id quod corporis, cupiditate
+                                    nesciunt optio consequatur aspernatur, temporibus libero, voluptatum molestias
+                                    repellendus. Blanditiis veniam sint quos perferendis magnam provident debitis amet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fm-modal-grid">Abrir modal con
+                    grid</button>
+                <div class="modal fade" id="fm-modal-grid" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">Grid</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar" />
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                                                perferendis earum adipisci, laudantium obcaecati totam qui fugiat quia
+                                                eaque aliquam soluta quis fugit ipsa reprehenderit aperiam accusamus
+                                                odio fuga numquam.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                                                perferendis earum adipisci, laudantium obcaecati totam qui fugiat quia
+                                                eaque aliquam soluta quis fugit ipsa reprehenderit aperiam accusamus
+                                                odio fuga numquam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-primary">Aceptar</button>
+                                <button class="btn btn-default" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
